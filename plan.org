@@ -1,0 +1,13 @@
+* Schema
+
+| name               | description                             | type                    |
+|--------------------+-----------------------------------------+-------------------------|
+| memory             | the memory itself                       | string, non nullable    |
+| date added         | when the memory was put in the database | timestamp, non nullable |
+| last date accessed | when the memory was last written to     | timetstamp, nullable    |
+
+* Command Line Utilities
+
+#+BEGIN_SRC 
+$ mason --memory "the first time I put a memory into my jar of awesome!"
+#+END_SRC 
