@@ -1,6 +1,5 @@
 #!/bin/bash -e
 
-echo $1
 sudo mysql mason -e "create table if not exists memories
     (memory MEDIUMBLOB NOT NULL,
     added TIMESTAMP NOT NULL,
